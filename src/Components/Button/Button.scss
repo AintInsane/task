@@ -1,0 +1,15 @@
+.Button {
+  display: inline-flex;
+  align-items: center;
+  height: 24px;
+  padding: 0 15px;
+  font-size: 12px;
+  color: #fff;
+  background-color: #4B51EF;
+  border: none;
+  border-radius: 5px;
+
+  &:disabled {
+    opacity: 0.5;
+  }
+}

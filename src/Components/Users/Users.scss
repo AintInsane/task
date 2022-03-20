@@ -1,0 +1,47 @@
+.Users {
+
+}
+
+.Users-list {
+  display: flex;
+  flex-flow: column;
+  gap: 15px;
+  padding: 0;
+  list-style: none;
+
+}
+
+.Users-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: repeat(3,1fr);
+  padding: 10px;
+  background: #F3F3F3;
+  border-radius: 8px;
+  font-size: 12px;
+  grid-gap:8px;
+}
+.Users-card :nth-child(2){
+  grid-column: 1;
+  grid-row: 2;
+}
+.Users-card :nth-child(3){
+  grid-column: 1;
+  grid-row: 3;
+}
+.Users-card :last-child{
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.Users-cardItem {
+  display: flex;
+  gap: 8px;
+}
+
+.Users-cardItem :first-child {
+  color: gray;
+}

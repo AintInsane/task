@@ -1,0 +1,24 @@
+.App {
+  height: 100%;
+  display: flex;
+}
+
+.App-nav {
+  flex-shrink: 0;
+  width: 150px;
+  padding: 35px 20px;
+  background-color: #BDBDBD;
+}
+.App-navSort {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.App-navSortLabel {
+  font-size: 12px;
+}
+
+.App-main {
+  flex-grow: 1;
+}
