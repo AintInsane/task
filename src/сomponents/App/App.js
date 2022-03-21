@@ -1,5 +1,5 @@
 import React from "react";
-import { Switch, Route } from "react-router-dom";
+import {Switch, Route} from "react-router-dom";
 import Button from "../Button/Button";
 import UserContainer from "../User/User.container";
 import UsersContainer from "../Users/Users.container";
@@ -26,8 +26,8 @@ export default function App() {
             </nav>
             <main className="App-main">
                 <Switch>
-                    <Route path="/:userId" render={() => <UserContainer />} />
-                    <Route path="/" render={() => <UsersContainer sort={sort} />} />
+                    <Route path="/:userId" render={() => <UserContainer/>}/>
+                    <Route path="/" render={() => <UsersContainer sort={sort}/>}/>
                 </Switch>
             </main>
         </div>
